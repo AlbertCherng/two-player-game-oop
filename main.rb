@@ -1,10 +1,7 @@
 require ("./question")
-require ("./question")
-require ("./question")
-require ("./question")
-require ("./question")
+require ("./game")
+require ("./player")
+require ("./turn")
+require ("pry")
 
-
-round1 = Question.new
-puts round1.question_maker
-puts round1.question_answer
+Game.new.run
